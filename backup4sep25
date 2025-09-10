@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html>
+  
+<title>El Sótano - Menú</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+
+
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("logo.jpg");
+  min-height: 90%;
+  
+  
+
+</style>
+
+
+
+<body>
+
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0" nonce="wuZZZgqD"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0" nonce="ZX1RnLB8"></script>
+
+<!-- Navbar (sit on top) -->
+
+
+<!--
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#menu">MENÚ</a></li>
+        <li><a href="#about">ABOUT</a></li>
+    <li><a href="#myMap">CONTACTO</a></li>    
+      </ul>
+    </div>
+  </nav>-->
+  
+<!-- Header with image -->
+<header class="bgimg w3-center" id="home">
+<style>
+      .bgimg{
+        background-position: center;
+        background-image: url("logo.jpg");
+      }
+    </style>
+
+
+  <div class="w3-bar w3-xlarge w3-white w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">INICIO</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENÚ</a>
+    <a href="#about" class="w3-bar-item w3-button">HORARIOS</a>
+    <a href="#myMap" class="w3-bar-item w3-button">UBICACIÓN</a>
+  </div>
+
+
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Abierto de 4pm a 12am</span>
+  </div>
+
+
+</header>
+
+
+
+
+
+
+<!-- Menu Container -->
+
+<!--
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">MENÚ</h1>
+  
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Cerveza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Cerveza</div>
+      </a>
+      
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Bebidas');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Bebidas</div>
+      </a>
+      
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Botellas');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Botellas</div>
+      </a>
+    
+    <a href="javascript:void(0)" onclick="openMenu(event, 'Alimentos');">
+        <div class="w3-col s5 tablink w3-hover-red">Snacks</div>
+      </a>
+    <a href="javascript:void(0)" onclick="openMenu(event, 'Promociones');">
+        <div class="w3-col s5 tablink w3-hover-red">Promociones</div>
+      </a>
+    </div> -->
+
+
+
+
+    <div class="w3-container w3-black w3-padding-48 w3-xxlarge" id="redes">
+  <div class="w3-content">
+
+
+
+<table style="width: 100%;">
+   <tr>
+      <td style="width: 100%; background-color:black; border: 0px solid black; text-align: center" >
+         
+
+<div class="fb-page" data-href="https://www.facebook.com/ElSotano.BarSnack/" data-tabs="" data-width="330" data-height="" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ElSotano.BarSnack/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ElSotano.BarSnack/">El Sótano</a></blockquote></div>
+
+      </td>
+   </tr>
+</table>
+
+ </div> 
+</div>
+
+
+
+
+    <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">MENÚ</h1>
+  
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Cerveza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Cerveza</div>
+      </a>
+      
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Bebidas');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Bebidas</div>
+      </a>
+
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Alimentos');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Snacks</div>
+      </a>
+      
+      <!-- PARA RESTAURAR LAS PESTAÑAS SE DEBE QUITAR EL COMENTARIO EN ESTE MENÚ Y EN LOS DIVS CORRESPONIENTES A LAS TABLAS DE DESCRIPCIÓN DE LOS PRODUCTOS
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Botellas');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Botellas</div>
+      </a>
+    
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Promociones');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Promociones</div>
+      </a> -->
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Promociones');">
+        <div class="w3-col tablink w3-padding-large w3-hover-red">Promociones</div>
+      </a> 
+
+    </div>
+
+    
+    
+    
+<div id="Cerveza" class="w3-container menu w3-padding-32 w3-white ">
+  
+<!-- CERVEZAS --> 
+
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">CERVEZAS</span></h1><hr>
+
+
+
+<h2><span class="w3-left w3-tag w3-teal w3-round-xxlarge"> INDIO</span><span class="w3-left w3-tag w3-red w3-round-xxlarge"> TECATE</span><span class="w3-right w3-tag w3-dark-grey w3-round">180.00</span></h2><br><h3><b>PROMO! 2 TARROS de 1Litro</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-teal w3-round-xxlarge"> INDIO</span><span class="w3-left w3-tag w3-red w3-round-xxlarge"> TECATE</span><span class="w3-right w3-tag w3-dark-grey w3-round">109.00</span></h2><br><h3><b>TARRO 1Litro</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-teal w3-round-xxlarge"> INDIO</span><span class="w3-left w3-tag w3-red w3-round-xxlarge"> TECATE</span><span class="w3-right w3-tag w3-dark-grey w3-round">$39.00</span></h2><br><h3><b>AMPOLLETA</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-teal w3-round-xxlarge"> INDIO</span><span class="w3-left w3-tag w3-red w3-round-xxlarge"> TECATE</span><span class="w3-right w3-tag w3-dark-grey w3-round">$210.00</span></h2><br><h3><b>CUBETA (6 Piezas)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-teal w3-round-xxlarge"> INDIO</span><span class="w3-left w3-tag w3-red w3-round-xxlarge"> TECATE</span><span class="w3-right w3-tag w3-dark-grey w3-round">$120.00</span></h2><br><h3><b>CAGUAMÓN</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-brown w3-round-xxlarge">XX Ambar</span><span class="w3-left w3-tag w3-green w3-round-xxlarge">XX Lager</span><span class="w3-right w3-tag w3-dark-grey w3-round">$109.00</span></h2><br><h3><b>TARRO 1Litro</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-brown w3-round-xxlarge">XX Ambar</span><span class="w3-left w3-tag w3-green w3-round-xxlarge">XX Lager</span><span class="w3-right w3-tag w3-dark-grey w3-round">$39.00</span></h2><br><h3><b>AMPOLLETA</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-brown w3-round-xxlarge">XX Ambar</span><span class="w3-left w3-tag w3-green w3-round-xxlarge">XX Lager</span><span class="w3-right w3-tag w3-dark-grey w3-round">$210.00</span></h2><br><h3><b>CUBETA (6 Piezas)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-brown w3-round-xxlarge">XX Ambar</span><span class="w3-left w3-tag w3-green w3-round-xxlarge">XX Lager</span><span class="w3-right w3-tag w3-dark-grey w3-round">$129.00</span></h2><br><h3><b>CAGUAMÓN</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge">Bohemia Oscura</span><span class="w3-left w3-tag w3-red w3-round-xxlarge">Bohemia Clara</span><span class="w3-right w3-tag w3-dark-grey w3-round">$45.00</span></h2><br><h3><b>AMPOLLETA</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge">Bohemia Oscura</span><span class="w3-left w3-tag w3-red w3-round-xxlarge">Bohemia Clara</span><span class="w3-right w3-tag w3-dark-grey w3-round">$245.00</span></h2><br><h3><b>CUBETA (6 Piezas)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-teal w3-round-xxlarge">Heineken</span><span class="w3-left w3-tag w3-teal w3-round-xxlarge"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$45.00</span></h2><br><h3><b>AMPOLLETA</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-teal w3-round-xxlarge">Heineken</span><span class="w3-left w3-tag w3-teal w3-round-xxlarge"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$245.00</span></h2><br><h3><b>CUBETA (6 Piezas)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-teal w3-round-xxlarge">Heineken</span><span class="w3-left w3-tag w3-teal w3-round-xxlarge"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$129.00</span></h2><br><h3><b>CAGUAMÓN</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-indigo w3-round-xxlarge">Ultra</span><span class="w3-left w3-tag w3-indigo w3-round-xxlarge"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$45.00</span></h2><br><h3><b>AMPOLLETA</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-indigo w3-round-xxlarge">Ultra</span><span class="w3-left w3-tag w3-indigo w3-round-xxlarge"></span><span class="w3-right w3-tag w3-dark-grey w3-round">$245.00</span></h2><br><h3><b>CUBETA (6 Piezas)</b></h3><hr>
+
+
+<!-- TARROS PREPARADOS -->
+
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge"> TARROS PREPARADOS</span></h1><hr>
+
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Michelado Grande</span><span class="w3-right w3-tag w3-dark-grey w3-round">$15.00</span><br></h2><h3><b>(sal, limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Michelado Mediano</span><span class="w3-right w3-tag w3-dark-grey w3-round">$12.00</span><br></h2><h3><b>(sal, limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Cubano Grande</span><span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span><br></h2><h3><b>(sal, piquín, limón, veneno)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Cubano Mediano</span><span class="w3-right w3-tag w3-dark-grey w3-round">$15.00</span><br></h2><h3><b>(sal, piquín, limón, veneno)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Chamoy Grande</span><span class="w3-right w3-tag w3-dark-grey w3-round">$23.00</span><br></h2><h3><b>(preparado de la casa, sal, limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Chamoy Mediano</span><span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span><br></h2><h3><b>(preparado de la casa, sal, limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Clamato Grande</span><span class="w3-right w3-tag w3-dark-grey w3-round">$30.00</span><br></h2><h3><b>(escarchado con piquín, clamato, veneno, pimienta, limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Clamato Mediano</span><span class="w3-right w3-tag w3-dark-grey w3-round">$25.00</span><br></h2><h3><b>(escarchado con piquín, clamato, veneno, pimienta, limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Gomichelado Grande</span><span class="w3-right w3-tag w3-dark-grey w3-round">$30.00</span><br></h2><h3><b>(preparado de la casa, gomitas, sal, limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Gomichelado Mediano</span><span class="w3-right w3-tag w3-dark-grey w3-round">$25.00</span><br></h2><h3><b>(preparado de la casa, gomitas, sal, limón)</b></h3><hr>
+
+
+
+    </div>
+
+
+    <div id="Bebidas" class="w3-container menu w3-padding-32 w3-white">
+     
+
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">WHISKY</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Red Label</span><span class="w3-right w3-tag w3-dark-grey w3-round">$79.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Jack Daniels</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Black Label</span><span class="w3-right w3-tag w3-dark-grey w3-round">$133.00</span><br></h2><h3><b></b></h3><hr>
+
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">GINEBRA</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Bombas Sapphire</span><span class="w3-right w3-tag w3-dark-grey w3-round">$89.00</span><br></h2><h3><b></b></h3><hr>
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">VODKA</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Wiborowa</span><span class="w3-right w3-tag w3-dark-grey w3-round">$79.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Absolute Azul</span><span class="w3-right w3-tag w3-dark-grey w3-round">$89.00</span><br></h2><h3><b></b></h3><hr>
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">RON</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Bacardi Blanco o Añejo</span><span class="w3-right w3-tag w3-dark-grey w3-round">$79.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Kraken Blanco o Añejo</span><span class="w3-right w3-tag w3-dark-grey w3-round">$79.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Capitán Morgan</span><span class="w3-right w3-tag w3-dark-grey w3-round">$79.00</span><br></h2><h3><b></b></h3><hr>
+
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">TEQUILA</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Jose Cuervo</span><span class="w3-right w3-tag w3-dark-grey w3-round">$79.00</span><br></h2><h3><b>Especial</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Jose Cuervo</span><span class="w3-right w3-tag w3-dark-grey w3-round">$89.00</span><br></h2><h3><b>Tradicional</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Centenario</span><span class="w3-right w3-tag w3-dark-grey w3-round">$89.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Don Julio</span><span class="w3-right w3-tag w3-dark-grey w3-round">$129.00</span><br></h2><h3><b>Reposado</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Don Julio 70</span><span class="w3-right w3-tag w3-dark-grey w3-round">$149.00</span><br></h2><h3><b>Cristalino</b></h3><hr>
+
+      
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">MEZCAL</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> 400 Conejos</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b></b></h3><hr>
+
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">BRANDY</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Don Pedro</span><span class="w3-right w3-tag w3-dark-grey w3-round">$79.00</span><br></h2><h3><b></b></h3><hr>
+
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">EXTRAS</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> *servicio extra*</span><span class="w3-right w3-tag w3-dark-grey w3-round">$35.00</span><br></h2><h3><b></b></h3><hr>
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">BEBIDAS SIN ALCOHOL</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Limonada, Piñada, Naranjada</span><span class="w3-right w3-tag w3-dark-grey w3-round">$49.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Conga</span><span class="w3-right w3-tag w3-dark-grey w3-round">$49.00</span><br></h2><h3><b>(Jugos de Toronja, Naranja, Piña y Limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Agua Embotellada 500</span><span class="w3-right w3-tag w3-dark-grey w3-round">$12.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Refrescos 600</span><span class="w3-right w3-tag w3-dark-grey w3-round">$39.00</span><br></h2><h3><b></b></h3><hr>
+
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">OTROS</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Orden de limones extra</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Botana</span><span class="w3-right w3-tag w3-dark-grey w3-round">$10.00</span><br></h2><h3><b></b></h3><hr>
+
+
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">COCTELERÍA</span></h1><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> NEW YORK SOUL</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(whisky, vino, clara de huevo)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> SANGRÍA</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(vodka o whiskey, vino, limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> COSMOPOLITAN</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(vodka, controy, jugo de arándano)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> BULL</span><span class="w3-right w3-tag w3-dark-grey w3-round">$109.00</span><br></h2><h3><b>(Ron añejo, un toque de limón, cerveza)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> PANTERA ROSA</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(vodka o ron, crema de coco, jugo de piña, granadina)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> PITUFO FROZEN</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(vodka o ron, crema de coco, curazao)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> MOJITO</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(ron, hierbabuena, limón, agua mineral)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> PIÑA COLADA FROZEN</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(ron o brandy, crema de coco, jugo de piña)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> PALOMA</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(tequila, refresco de toronja, jugo de limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> CHAMORADA FROZEN</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(tequila o mezcal, jarabe de tamarindo, limón)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> MARGARITA FROZEN</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(tequila, sal, limon)</b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> TOM COLINS</span><span class="w3-right w3-tag w3-dark-grey w3-round">$99.00</span><br></h2><h3><b>(ginebra o whisky, agua mineral, limón)</b></h3><hr>
+     
+    </div>
+
+
+<!--     <div id="Botellas" class="w3-container menu w3-padding-32 w3-white">
+        
+  </div><br> -->
+  
+      <div id="Alimentos" class="w3-container menu w3-padding-32 w3-white">
+      
+<h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">SNAKS</span></h1><hr>
+
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Papas a la Francesa</span><span class="w3-right w3-tag w3-dark-grey w3-round">$89.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Costillas</span><span class="w3-right w3-tag w3-dark-grey w3-round">$119.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Nachos Sencillos</span><span class="w3-right w3-tag w3-dark-grey w3-round">$65.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Nachos con Carne</span><span class="w3-right w3-tag w3-dark-grey w3-round">$119.00</span><br></h2><h3><b></b></h3><hr>
+<h2><span class="w3-left w3-tag w3-black w3-round-xxlarge"> Botana</span><span class="w3-right w3-tag w3-dark-grey w3-round">$10.00</span><br></h2><h3><b>(frituras de trigo o Palomitas)</b></h3><hr>
+      
+    </div><br>
+  
+
+<!--PROMOCIONES-->
+
+
+    <div id="Promociones" class="w3-container menu w3-padding-32 w3-white">
+
+      <h1><span class="w3-bar w3-tag w3-red w3-round-xxlarge">PROMOCION 2 LITROS DE CERVEZA X $170.00</span></h1><hr>
+ 
+
+
+      <h2><span class="w3-left w3-tag w3-black w3-round-xxlarge">2 LITROS DE CERVEZA</span><span class="w3-right w3-tag w3-dark-grey w3-round">$180.00</span><br></h2><h3><b></b></h3><hr>
+
+
+    </div><br>
+
+
+
+
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-black w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Nuestros horarios</h1>
+
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Lunes 5:00pm - 00:00</p>
+        <p>Martes 5:00pm - 00:00</p>
+        <p>Miercoles 5:00pm - 00:00</p>
+        <p>Jueves 5:00pm - 00:00</p>
+      </div>
+      <div class="w3-col s6">
+        
+        <p>Viernes 5:00pm - 2:00am</p>
+        <p>Sabado 5:00pm - 1:00am</p>
+    <p>Domingo 5:00pm - 00:00</p>
+      </div>
+    <img src="logo.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<!-- Image of location/map -->
+
+<div class="w3-container w3-padding-64 w3-black w3-grayscale w3-xlarge w3-center" id="myMap">
+  <div class="w3-content">
+<h1><b>Nuestra ubicación</b></h1>
+        <p>Insurgentes Centro No.15</p>
+        <p>Colonia San Rafael, Ciudad de México, CP 06470</p>
+      </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.381054510514!2d-99.15839148514412!3d19.439131045509118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d1e5085e4d%3A0x34e26c4a6dd4de0b!2sEl%20S%C3%B3tano!5e0!3m2!1ses-419!2smx!4v1600465346591!5m2!1ses-419!2smx" 
+width="300" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.facebook.com/ElSotano.BarSnack/" title="El Sotano" target="_blank" class="w3-hover-text-green">El Sotano</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+
+</body>
+</html>
